@@ -354,7 +354,7 @@ ingress:
 
   ## When the ingress is enabled, a host pointing to this will be created
   ##
-  hostname: aspnet-core.local
+  hostname: drone-webapp-aspnet-core.555c48193f6b47259f5e.westus.aksapp.io
 
   ## Ingress annotations done as key:value pairs
   ## For a full list of possible ingress annotations, please see
