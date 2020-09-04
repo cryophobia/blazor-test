@@ -353,8 +353,8 @@ ingress:
   certManager: false
 
   ## When the ingress is enabled, a host pointing to this will be created
-  ##
-  hostname: drone-webapp-aspnet-core.local
+  ## If no host is set, a wildcard (*) assignment is done
+  ## hostname: aspnet-core.local
 
   ## Ingress annotations done as key:value pairs
   ## For a full list of possible ingress annotations, please see
